@@ -2,4 +2,5 @@ langchain
 torch
 langchain_openai
 langchain_community
+langchain_ollama
 streamlit 
