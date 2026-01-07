@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
 import os
 
-OPENAI_KEY = os.environ.get('OPENAI_KEY',None)
+OPENAI_KEY = os.environ.get('OPENAI_KEY','')
 
 prompt = ChatPromptTemplate.from_messages(
     [
