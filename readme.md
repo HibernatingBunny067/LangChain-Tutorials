@@ -6,3 +6,7 @@
 ## Day-01
 - [x] learned about langchain basics like prompt template, output parser and chains
 - [x] worked with Ollama to run LLMs locally 
+- [x] created a small semantic search engine using 5 strings as documents and 1 query
+
+## Day-02
+- [x] learning about prompts, using Ollama and llama 3 made a basic offline paper summarizer
