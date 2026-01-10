@@ -2,7 +2,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM
 import streamlit as st 
 
-model = OllamaLLM(model='llama3.2:1b')
+model = OllamaLLM(model='llama3.2:1b',temperature=0.6,num_predict=1024)
 
 st.header('Research Tool')
 

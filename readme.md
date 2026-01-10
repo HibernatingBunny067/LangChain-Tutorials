@@ -10,3 +10,5 @@
 
 ## Day-02
 - [x] learning about prompts, using Ollama and llama 3 made a basic offline paper summarizer
+- [x] learned about different type of messages used in LLM prompting
+- [x] chatprompt template and prompt template difference and when to use which one 
