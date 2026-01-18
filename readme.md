@@ -12,3 +12,9 @@
 - [x] learning about prompts, using Ollama and llama 3 made a basic offline paper summarizer
 - [x] learned about different type of messages used in LLM prompting
 - [x] chatprompt template and prompt template difference and when to use which one 
+
+## Day-03
+- [x] learned Runnables 
+- [x] runnables effictively are a type of component which are standardized in LangChain and carry an invoke method which runs that particular runnable with the required inputs
+- [x] runnables come in many flavours from LangChain itself, seq, parallel lambda and passthrough to name the most important ones
+- [] starting document laoders the begining of RAG !!!
