@@ -11,4 +11,12 @@
 ![pdf_loader](/data/laoders.png)
 
 ## Directory Loader
+<<<<<<< HEAD
 - 
+=======
+- used to load all the files from a directory
+- can be used with any existing loader in LangChain
+
+## Lazy Loading
+- Sometimes we cant
+>>>>>>> 3651384 (added on RAG)

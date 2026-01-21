@@ -19,4 +19,10 @@
 ## Components of RAG
 ```
 Document Loaders -> Text Splitters -> Vector Databases -> Retrievers
+<<<<<<< HEAD
 ```
+=======
+```
+
+- 
+>>>>>>> 3651384 (added on RAG)
