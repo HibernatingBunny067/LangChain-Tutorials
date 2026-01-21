@@ -9,3 +9,5 @@
 - we define a set length and split all the sentences of words based on length of the characters 
 - and treat each chunk as an independent 
 - most basic type of splitting, fast but not widely used 
+
+### Chunk Overlap parameter: number of characters which belong to successive chunks 
