@@ -1,7 +1,7 @@
-from langchain_community.retrievers import WikipediaRetriever
+from langchain_community.retrievers.wikipedia import WikipediaRetriever
 import asyncio
 
-retriever = WikipediaRetriever(top_k_results=5)
+retriever = WikipediaRetriever(wiki_client='wikipedia',top_k_results=5)
 
 async def search_wiki(query):
     return await retriever.ainvoke(query)
