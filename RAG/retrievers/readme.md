@@ -5,3 +5,14 @@
 ## Types of Retrievers in LangChain
 - in langchain, retrievers are classified into two types - Vector store based and search type 
 - vector store based retrievers search the existing vector database for relevant data and search based retrievers like wikipedia retrievers use apis to search wikipedia for a particular query (using regex matching)
+
+### MMR retriever (maximal marginal relevance)
+- relevant and non redundant retrieval strategy 
+- **Core Philosophy:** "*How can we pick results that are not only relevant to the query but also different from each other*"
+- relevant and diverse 
+
+## Multi-Query retriever
+- make an ambigous query more coherent by using a smaller LLM
+- Use multiple queries to query the db and retrieve all the documents
+- deduplicate the results and return the top_k results (we can use another retriever here like MMR)
+- 
