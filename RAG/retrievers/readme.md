@@ -15,4 +15,10 @@
 - make an ambigous query more coherent by using a smaller LLM
 - Use multiple queries to query the db and retrieve all the documents
 - deduplicate the results and return the top_k results (we can use another retriever here like MMR)
-- 
+
+## Contextual Compression retriever
+- advanced retriever which improves the retrieval by compressing documents after retrieval 
+- keeping only the relevant content based on the user's query
+- basically it removes the non relevant parts from the retrieved documents to the minimum viable relevant information
+- the compression is done by a LLM
+- usually used with long documents containing mixed information, reducing the context length 
